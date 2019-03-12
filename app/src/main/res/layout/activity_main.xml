@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.facebook.login.widget.ProfilePictureView
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageprofilepictureview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+    
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text = "NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text = "EMAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text = "FIRST NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center"
+        android:text="Đăng xuất"
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnOptions"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Các chức năng trong facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
